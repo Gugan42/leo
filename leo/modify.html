@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=30">
+    <title>Student</title>
+    <style>
+        a {
+            padding-right: 25px;
+            text-decoration: none;
+            color: rgb(67, 2, 2);
+
+        }
+
+        #h {
+        
+           
+            font-size: 29px;
+        }
+    </style>
+</head>
+
+<body>
+    <b>
+        <div id="h">
+            <h3><i>Student Details</i></h3>
+            <hr>
+            <div id="nav">
+                <a href="student.html">Home</a>
+                <a href="newstudent.html">New Student</a>
+                <a href="modify.html">Modify Student</a>
+                <a href="readstudent.php">Details</a>
+            </div>
+        </div>
+    </b>
+    <center>
+        <b>
+            <form action="modify.php" method="post">
+                <h3>Modify Student Details </h3>
+                <hr>
+                Student Id <input type="text" name="sid"><br>
+                Student Name <input type="text" name="sna"><br>
+                Student's age <input type="text" name="sage"><br>
+                Student's Qualification <input type="text" name="sq"><br>
+                <button type="submit">Submit</button>
+                <button type="reset"> Clear</button>
+
+            </form>
+        </b>
+    </center>
+
+</body>
+
+</html>
